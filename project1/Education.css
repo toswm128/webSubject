@@ -1,0 +1,53 @@
+body {
+  overflow-y: auto;
+}
+
+.list {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+.school {
+  height: 70vh;
+  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.school-background {
+  width: 90%;
+  height: 50%;
+  margin: 0 auto 0 auto;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.school-explanation {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: flex-start;
+  margin-left: 1%;
+}
+
+.school-name {
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.school-Uniqueness {
+  color: black;
+  font-size: 1em;
+}
+
+.school-photo {
+  height: 100%;
+  border-radius: 10px;
+}
