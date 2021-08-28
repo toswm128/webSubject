@@ -3,10 +3,10 @@ const footer = document.querySelector("footer");
 
 const headerData = ` 
 <div class="header-menu">
-<a href="/project1/index.html">기본정보</a>
-<a href="/project1/Education.html">학력</a>
-<a href="/project1/point.html">상벌</a>
-<a href="/project1/training.html">학력</a>
+<a href="../html/index.html">기본정보</a>
+<a href="../html/Education.html">학력</a>
+<a href="../html/point.html">상벌</a>
+<a href="../html/training.html">학력</a>
 </div>
 `;
 
