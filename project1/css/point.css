@@ -1,0 +1,28 @@
+.title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.reward {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.meritBar {
+  width: 5px;
+  max-width: 100%;
+  background-color: #0067bc !important;
+  height: 50px;
+  transition: 0.5s ease-in-out;
+}
+
+.demeritBar {
+  width: 5px;
+  max-width: 100%;
+  background-color: #f97e6d !important;
+  height: 50px;
+  transition: 0.5s ease-in-out;
+}
